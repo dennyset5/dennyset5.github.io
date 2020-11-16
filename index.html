@@ -16,6 +16,18 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Fancybox -->
+    <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".perbesar").fancybox();
+        });
+    </script>
+
 </head>
 
 <body id="page-top">
@@ -102,7 +114,8 @@
                 <div class="subheading mb-3">Organisasi</div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">Himpunan Mahasiswa Matematika</h3>
+                        <h3 class="mb-0"><a href="assets/img/HMM.jpg" class="perbesar">Himpunan Mahasiswa Matematika</a>
+                        </h3>
                         <div class="subheading mb-3">Ketua Umum</div>
                         <p class="text-justify">Bertanggung jawab penuh atas berjalannya roda organisasi di Himpunan
                             Mahasiswa Matematika (HMM) FMIPA USU
